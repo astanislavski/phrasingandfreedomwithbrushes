@@ -336,7 +336,7 @@ html body {
     text-decoration: none;
     border-radius: 5px;
     padding: 20px;
-    background-color: #2D82B7;
+    background-color: #62bebc;
     color: white;
     font-size: 2em;
     margin: 12px auto; }
@@ -408,7 +408,7 @@ html body {
           max-width: 700px; }
 
 .included {
-  background-color: #2D82B7; }
+  background-color: #62bebc; }
   .included li {
     margin: 12px 0; }
     @media (min-width: 1100px) {
@@ -481,11 +481,11 @@ html body {
   justify-content: space-between; }
 
 .dirty-socks {
-  background-color: #EB8A90;
+  background-color: #ed9e49;
   color: black; }
 
 .about-book {
-  background-color: #F3DFBF; }
+  background-color: #d3bcb8; }
   .about-book .book-text {
     flex-basis: 50%;
     text-align: center; }
@@ -497,7 +497,7 @@ html body {
   .about-book .open-book-image-wrapper {
     flex-basis: 50%; }
   .about-book .cta-button {
-    background-color: #EB8A90; }
+    background-color: #ed9e49; }
 
 .digital-download .flex-container {
   justify-content: space-between;
