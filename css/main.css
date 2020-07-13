@@ -340,10 +340,14 @@ html body {
     color: white;
     font-size: 2em;
     margin: 12px auto; }
+  html body .book-drop-shadow-wrapper {
+    margin-bottom: -60px; }
 
 .hero {
   background-color: white;
   text-align: center; }
+  .hero.panel {
+    padding-top: 0; }
   @media (min-width: 1100px) {
     .hero {
       text-align: left;
@@ -369,19 +373,19 @@ html body {
     font-size: 2em; }
   .hero .heading-large {
     font-size: 2em; }
+  .hero .heading-highlight {
+    color: #62bebc; }
   .hero .hero-image {
     width: 100%;
     margin: 24px 0; }
     @media (min-width: 1100px) {
       .hero .hero-image {
         text-align: left;
-        width: 130%;
-        margin: 0;
-        margin-left: -10%; } }
+        margin: 0; } }
   .hero .lowercase {
     font-size: 1.35em;
     line-height: 0.6;
-    font-weight: 500; }
+    font-weight: 400; }
 
 .carousel.panel {
   min-height: 0;

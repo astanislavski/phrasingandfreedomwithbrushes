@@ -2,6 +2,10 @@
   background-color: white;
   text-align: center;
 
+  &.panel {
+    padding-top: 0;
+  }
+
   @media (min-width: $desktop-small) {
     text-align: left;
     overflow: hidden;
@@ -40,22 +44,24 @@
     font-size: 2em;
   }
 
+  .heading-highlight {
+    color: #62bebc;
+  }
+
   .hero-image {
     width: 100%;
     margin: 24px 0;
 
     @media (min-width: $desktop-small) {
       text-align: left;
-      width: 130%;
       margin: 0;
-      margin-left: -10%;
     }
   }
 
   .lowercase {
     font-size: 1.35em;
     line-height: 0.6;
-    font-weight: 500;
+    font-weight: 400;
   }
 }
 
