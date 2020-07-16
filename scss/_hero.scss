@@ -48,10 +48,13 @@
     color: #62bebc;
   }
 
+  .hero-image-wrapper {
+    flex-basis: 70%;
+  }
+
   .hero-image {
     width: 60%;
     margin: 24px 0;
-    flex-basis: 70%;
 
     @media (min-width: $desktop-small) {
       width: 100%;

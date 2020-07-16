@@ -375,10 +375,11 @@ html body {
     font-size: 2em; }
   .hero .heading-highlight {
     color: #62bebc; }
+  .hero .hero-image-wrapper {
+    flex-basis: 70%; }
   .hero .hero-image {
     width: 60%;
-    margin: 24px 0;
-    flex-basis: 70%; }
+    margin: 24px 0; }
     @media (min-width: 1100px) {
       .hero .hero-image {
         width: 100%;
